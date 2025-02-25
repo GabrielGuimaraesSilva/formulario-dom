@@ -83,3 +83,9 @@ body {
    font-family: 'roboto', sans-serif;
    display: none;
 }
+
+input.error {
+    color: red;
+    border-color: red;
+    outline-color: red;
+}
