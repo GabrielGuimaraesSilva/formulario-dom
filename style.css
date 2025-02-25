@@ -61,3 +61,25 @@ body {
     font-style: italic;
     
 }
+
+.mensagem-sucesso {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+   font-family: 'roboto', sans-serif;
+   display: none;
+}
+
+.mensagem-erro { 
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    padding: 2px;
+    border-radius: 5px;
+   font-family: 'roboto', sans-serif;
+   display: none;
+}

@@ -14,11 +14,13 @@
         <h2>Depósitos</h2>
         <form id="form-deposito">
             <input type="text" id="nome" required placeholder="Nome completo do beneficiario">
+            <p class="mensagem-erro">O nome do beneficiario deve ser completo</p>
             <input type="number" id="conta" required placeholder="N° da conta do beneficiario">
             <input type="number" id="valor" required placeholder="Valor">
             <input type="text" id="descricao" required placeholder="Descrição">
             <button id="botao" type="submit">DEPOSITAR</button>
         </form>
+        <p class="mensagem-sucesso">O montante de: 100.00 depositado com sucesso na conta 12345 do beneficiario João.</p>
     </div>
     <script src="script.js"></script>
 </body>
